@@ -1,4 +1,10 @@
-<img src="header.svg" alt="ANEM HARIKISHORE. I teach machines to see and to listen." width="100%">
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7c3aed,50:2563eb,100:06b6d4&height=230&text=Harikishore%20Anem&fontColor=ffffff&fontSize=52&fontAlignY=40&animation=fadeIn" alt="Harikishore Anem" width="100%">
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=58A6FF&center=true&vCenter=true&width=700&height=40&lines=AI+Engineer+%7C+Computer+Vision+%7C+Voice+AI;I+teach+machines+to+see;I+teach+machines+to+listen;Open+to+work" alt="AI Engineer, computer vision, voice AI. Open to work.">
+
+</div>
 
 <div align="center">
 
@@ -59,3 +65,5 @@ timeline
 </div>
 
 <sub>This creature is generated automatically every day from my public repositories. It grows when I ship code.</sub>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7c3aed,50:2563eb,100:06b6d4&height=120&section=footer" alt="" width="100%">
