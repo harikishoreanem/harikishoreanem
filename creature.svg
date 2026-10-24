@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="320" viewBox="0 0 760 320" role="img" aria-label="A creature generated from harikishoreanem's GitHub activity">
+<style>
+text{font-family:-apple-system,Segoe UI,Helvetica,Arial,sans-serif;fill:#24292f}
+.t{font-size:22px;font-weight:600}.s{font-size:17px}.m{font-size:14px;fill:#6e7781}
+@media (prefers-color-scheme:dark){text{fill:#e6edf3}.m{fill:#9198a1}}
+.bob{animation:bob 3s ease-in-out infinite}
+@keyframes bob{50%{transform:translateY(-8px)}}
+.orbit{transform-origin:190px 160px;animation:spin 18s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.eye{transform-box:fill-box;transform-origin:center;animation:blink 4.5s infinite}
+@keyframes blink{0%,94%,100%{transform:scaleY(1)}97%{transform:scaleY(.1)}}
+</style>
+<g class="orbit"></g>
+<g class="bob"><ellipse cx="162" cy="224.5" rx="16" ry="9" fill="#e6c619"/><ellipse cx="218" cy="224.5" rx="16" ry="9" fill="#e6c619"/><path d="M190 103.5 Q204 69.5 196 55.5" stroke="#e6c619" stroke-width="4" fill="none" stroke-linecap="round"/><circle cx="196" cy="53.5" r="7" fill="#3572A5"/><path d="M248.2 145.4 Q250.3 160.0 245.6 173.2 Q241.0 186.5 234.0 202.0 Q226.9 217.5 208.5 221.9 Q190.0 226.3 172.7 220.2 Q155.3 214.1 147.0 200.4 Q138.6 186.7 132.9 173.3 Q127.1 160.0 129.7 145.0 Q132.2 130.0 146.5 122.2 Q160.8 114.5 175.4 109.7 Q190.0 104.9 205.5 108.3 Q221.0 111.6 233.5 121.3 Q246.0 130.9 248.2 145.4 Z" fill="#e6c619"/><ellipse class="eye" cx="164.0" cy="150.0" rx="7" ry="9" fill="#fff"/><circle cx="165.5" cy="152.0" r="3.5" fill="#1a1030"/><ellipse class="eye" cx="190.0" cy="150.0" rx="7" ry="9" fill="#fff"/><circle cx="191.5" cy="152.0" r="3.5" fill="#1a1030"/><ellipse class="eye" cx="216.0" cy="150.0" rx="7" ry="9" fill="#fff"/><circle cx="217.5" cy="152.0" r="3.5" fill="#1a1030"/><path d="M174 182 Q190 198 206 182" fill="none" stroke="#1a1030" stroke-width="4" stroke-linecap="round"/></g>
+<text class="t" x="400" y="110">Meet the creature of @harikishoreanem</text><text class="s" x="400" y="140">Stage: Hatchling</text><text class="s" x="400" y="170">Repos eaten: 4</text><text class="s" x="400" y="200">Favorite food: JavaScript, Python</text><text class="s" x="400" y="230">Stars collected: 0</text><text class="m" x="400" y="260">It grows when I ship code.</text>
+</svg>
