@@ -1,4 +1,4 @@
-<img src="header.svg" alt="Harikishore Anem. I teach machines to see and to listen." width="100%">
+<img src="header.svg" alt="ANEM HARIKISHORE. I teach machines to see and to listen." width="100%">
 
 <div align="center">
 
