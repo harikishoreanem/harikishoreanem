@@ -12,32 +12,32 @@ I’m a developer who builds AI systems that work in real time. At People Tech G
 
 <img src="voice.svg" alt="AI Voice Assistant pipeline" width="100%">
 
-A multilingual voice assistant that I worked on at Medha Robotics, showcased at the India AI Impact Summit 2026 in Delhi. The code is private, so I walk through the architecture and my part in interviews.
+A multilingual AI voice assistant that listens for a wake word, understands spoken commands, and replies out loud in real time. It combines speech-to-text, a language model (TinyLLaMA), Sarvam AI and text-to-speech, and it was showcased at the India AI Impact Summit 2026 in Delhi.
 
 <img src="road-safety-v2.svg" alt="Smart Road Safety Monitor" width="100%">
 
 YOLOv7 and YOLOv8 models that tell helmet from no helmet, running on live ESP32-CAM video through OpenCV. I labelled the dataset in Roboflow, trained the models, and tuned the pipeline for real-time use. *Repo coming soon.*
 
-<img src="sec-work.svg" alt="How I work" width="100%">
+<img src="sec-skills.svg" alt="My skills" width="100%">
 
-| Area | Strong | Working knowledge |
-|---|---|---|
-| Programming and data | Python, SQL, NumPy, Pandas | – |
-| ML and deep learning | PyTorch, TensorFlow, CNNs | – |
-| Computer vision | OpenCV, YOLO, object detection | – |
-| Speech | Speech to text, text to speech | – |
-| Generative AI | – | LLM APIs, RAG, vector databases, agents, LangGraph, MCP |
-| Engineering | Git and GitHub | REST APIs, CI/CD, AWS |
+| Strong (I use these confidently) | Working knowledge (still learning) |
+|---|---|
+| Python, SQL, NumPy, Pandas<br>PyTorch, TensorFlow, CNNs<br>OpenCV, YOLO, object detection<br>Speech to text, text to speech<br>Git and GitHub | LLM APIs, RAG, vector databases<br>Agents, LangGraph, MCP<br>REST APIs, CI/CD, AWS |
 
 <img src="sec-exp.svg" alt="Experience and education" width="100%">
 
-**Junior Software Developer, Medha Robotics** · Nov 2025 to Sep 2026 · Hyderabad
+**Junior Software Developer, Medha Robotics**<br>
+*Nov 2025 to Sep 2026 · Hyderabad*
+
 Worked on a multilingual AI voice assistant and represented the team at the India AI Impact Summit 2026 in Delhi. Explored robotics simulation with NVIDIA Isaac Sim and tested workflows with the GR00T N1.5 model.
 
-**Junior Software Developer, People Tech Group** · May 2025 to Oct 2025 · Hyderabad
+**Junior Software Developer, People Tech Group**<br>
+*May 2025 to Oct 2025 · Hyderabad*
+
 Trained and tuned YOLO models for a bike safety system designed to stop the bike from starting when the rider is not wearing a helmet. My part was the model: collecting and annotating data, preprocessing, training and evaluation, using Python, OpenCV, NumPy and Pandas.
 
-**B.Tech in Computer Science and Engineering**, Avanthi Institute of Engineering and Technology, Makavarapalem · 2020 to 2024 · CGPA 8.22
+**B.Tech in Computer Science and Engineering**<br>
+*Avanthi Institute of Engineering and Technology, Makavarapalem · 2020 to 2024 · CGPA 8.22*
 
 <img src="sec-path-v2.svg" alt="My path so far" width="100%">
 
