@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[LinkedIn](https://linkedin.com/in/harikishore-anem-27b62424a) · [Email](mailto:harikishoreanem@gmail.com) · [Resume](Harikishore_Anem_Resume.pdf) · Portfolio: coming soon · Hyderabad, open to relocation
+[LinkedIn](https://linkedin.com/in/harikishore-anem-27b62424a) · [Email](mailto:harikishoreanem@gmail.com) · [Resume](Harikishore_Anem_Resume.pdf) · Portfolio:  · Hyderabad, open to relocation
 
 </div>
 
@@ -16,11 +16,11 @@ A multilingual AI voice assistant that listens for a wake word, understands spok
 
 <img src="road-safety-v2.svg" alt="Smart Road Safety Monitor" width="100%">
 
-YOLOv7 and YOLOv8 models that tell helmet from no helmet, running on live ESP32-CAM video through OpenCV. I labelled the dataset in Roboflow, trained the models, and tuned the pipeline for real-time use. *Repo coming soon.*
+YOLOv7 and YOLOv8 models that tell helmet from no helmet, running on live ESP32-CAM video through OpenCV. I labelled the dataset in Roboflow, trained the models, and tuned the pipeline for real-time use.
 
 <img src="sec-skills.svg" alt="My skills" width="100%">
 
-| Strong (I use these confidently) | Working knowledge (still learning) |
+| Strong  | Working knowledge (still learning) |
 |---|---|
 | Python, SQL, NumPy, Pandas<br>PyTorch, TensorFlow, CNNs<br>OpenCV, YOLO, object detection<br>Speech to text, text to speech<br>Git and GitHub | LLM APIs, RAG, vector databases<br>Agents, LangGraph, MCP<br>REST APIs, CI/CD, AWS |
 
