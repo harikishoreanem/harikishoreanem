@@ -2,13 +2,11 @@
 
 <div align="center">
 
-[LinkedIn](https://linkedin.com/in/harikishore-anem-27b62424a) · [Email](mailto:harikishoreanem@gmail.com) · Portfolio: coming soon · Hyderabad, open to relocation
+[LinkedIn](https://linkedin.com/in/harikishore-anem-27b62424a) · [Email](mailto:harikishoreanem@gmail.com) · [Resume](Harikishore_Anem_Resume.pdf) · Portfolio: coming soon · Hyderabad, open to relocation
 
 </div>
 
-I build AI that **sees** and **listens**. At People Tech Group I trained real-time computer vision models. At Medha Robotics I built a multilingual voice assistant and showed it at the **India AI Impact Summit 2026** in Delhi. I like the moment a model leaves the notebook and starts working on a live camera or a live microphone.
-
-Right now I’m looking for my next AI / ML role.
+I’m a developer who builds AI systems that work in real time. At People Tech Group I trained and tuned YOLO models that detect objects on live video, and at Medha Robotics I built a multilingual voice assistant that was showcased at the India AI Impact Summit 2026 in Delhi. I enjoy the hands-on side of AI: collecting and cleaning data, training models, and getting them to run on real cameras and microphones. I’m looking for AI Engineer and Machine Learning Engineer roles and I’m open to relocating.
 
 <img src="sec-build.svg" alt="What I build" width="100%">
 
@@ -44,7 +42,7 @@ timeline
 
 | | |
 |---|---|
-| **Role I want** | AI / ML engineer: computer vision, voice AI, LLM applications |
+| **Role I want** | AI Engineer, Machine Learning Engineer |
 | **Education** | B.Tech, Avanthi Institute of Engineering and Technology, CGPA 8.22 |
 | **Experience** | Junior Software Developer, Medha Robotics (11/2025 to 09/2026) · Junior Software Developer, People Tech Group (05/2025 to 10/2025) |
 | **Also explored** | NVIDIA Isaac Sim and the GR00T N1.5 model for robotics simulation |
