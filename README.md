@@ -1,4 +1,4 @@
-<img src="header-v2.svg" alt="Harikishore Anem. AI engineer. Vision, voice, language." width="100%">
+<img src="header-v2.svg" alt="Anem Harikishore. AI engineer. Vision, voice, language." width="100%">
 
 <div align="center">
 
