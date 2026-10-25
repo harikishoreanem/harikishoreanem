@@ -1,4 +1,4 @@
-<img src="header-v2.svg" alt="Anem Harikishore. AI engineer. Vision, voice, language." width="100%">
+<img src="header-v2.svg" alt="Harikishore Anem. AI engineer. Vision, voice, language." width="100%">
 
 <div align="center">
 
@@ -14,9 +14,9 @@ I’m a developer who builds AI systems that work in real time. At People Tech G
 
 Wake-word detection, speech to text, an LLM (TinyLLaMA) and Sarvam AI for multilingual replies, then text to speech. I built the full end-to-end pipeline and showed it at the India AI Impact Summit 2026. *Repo coming soon.*
 
-<img src="road-safety.svg" alt="Smart Road Safety Monitor" width="100%">
+<img src="road-safety-v2.svg" alt="Smart Road Safety Monitor" width="100%">
 
-YOLO models that spot helmets and distracted drivers, running on live ESP32-CAM video through OpenCV. I collected and annotated the data, trained the models, and tuned the pipeline for real-time use. *Repo coming soon.*
+YOLOv7 and YOLOv8 models that tell helmet from no helmet, running on live ESP32-CAM video through OpenCV. I labelled the dataset in Roboflow, trained the models, and tuned the pipeline for real-time use. *Repo coming soon.*
 
 <img src="sec-work.svg" alt="How I work" width="100%">
 
