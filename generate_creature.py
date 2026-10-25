@@ -28,7 +28,11 @@ top = langs.most_common(1)[0][0] if langs else "curiosity"
 COLORS = {"Python": "#3572A5", "JavaScript": "#e6c619", "TypeScript": "#3178c6", "Java": "#b07219", "C++": "#f34b7d", "C": "#7a7a7a", "Go": "#00ADD8", "Rust": "#dea584", "HTML": "#e34c26", "CSS": "#8a63d2", "Jupyter Notebook": "#DA5B0B", "Shell": "#89e051"}
 rng = random.Random(int(hashlib.md5(USER.lower().encode()).hexdigest(), 16))
 base = COLORS.get(top) or "#%02x%02x%02x" % tuple(rng.randint(90, 230) for _ in range(3))
-accent = COLORS.get(langs.most_common(2)[1][0]) if len(langs) > 1 else "#ff5fae"
+accent = "#c9a96e"
+def mix(a, b, t):
+    a = [int(a[i:i + 2], 16) for i in (1, 3, 5)]; b = [int(b[i:i + 2], 16) for i in (1, 3, 5)]
+    return "#%02x%02x%02x" % tuple(int(x * (1 - t) + y * t) for x, y in zip(a, b))
+base = mix(base, "#d9bf86", 0.4)
 stage = "Hatchling" if n < 5 else "Explorer" if n < 15 else "Architect"
 
 cx, cy = 190, 160
@@ -62,16 +66,15 @@ feet = '<ellipse cx="%d" cy="%.1f" rx="16" ry="9" fill="%s"/><ellipse cx="%d" cy
 ant = '<path d="M%d %.1f Q%d %.1f %d %.1f" stroke="%s" stroke-width="4" fill="none" stroke-linecap="round"/><circle cx="%d" cy="%.1f" r="7" fill="%s"/>' % (cx, cy - r * 0.9 + 4, cx + 14, cy - r * 0.9 - 30, cx + 6, cy - r * 0.9 - 44, base, cx + 6, cy - r * 0.9 - 46, accent)
 
 food = ", ".join(l for l, _ in langs.most_common(2)) or "ideas"
-lines = [("Meet the creature of @" + USER, "t"), ("Stage: %s" % stage, "s"), ("Repos eaten: %d" % n, "s"), ("Favorite food: %s" % food, "s"), ("Stars collected: %d" % stars, "s"), ("It grows when I ship code.", "m")]
+lines = [("My code creature", "t"), ("@" + USER, "m"), ("Stage: %s" % stage, "s"), ("Repos eaten: %d" % n, "s"), ("Favorite food: %s" % food, "s"), ("Stars collected: %d" % stars, "s"), ("It grows when I ship code.", "m")]
 txt = ""
 for i, (t, c) in enumerate(lines):
-    txt += '<text class="%s" x="400" y="%d">%s</text>' % (c, 110 + i * 30, escape(t))
+    txt += '<text class="%s" x="400" y="%d">%s</text>' % (c, 92 + i * 30, escape(t))
 
 svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="760" height="320" viewBox="0 0 760 320" role="img" aria-label="A creature generated from {escape(USER)}'s GitHub activity">
 <style>
-text{{font-family:-apple-system,Segoe UI,Helvetica,Arial,sans-serif;fill:#24292f}}
-.t{{font-size:22px;font-weight:600}}.s{{font-size:17px}}.m{{font-size:14px;fill:#6e7781}}
-@media (prefers-color-scheme:dark){{text{{fill:#e6edf3}}.m{{fill:#9198a1}}}}
+text{{font-family:-apple-system,Segoe UI,Helvetica,Arial,sans-serif;fill:#a9c3b8}}
+.t{{font-family:Georgia,'Times New Roman',serif;font-size:24px;font-style:italic;fill:#f3e3b8}}.s{{font-size:17px}}.m{{font-size:14px;fill:#c9a96e;letter-spacing:1px}}
 .bob{{animation:bob 3s ease-in-out infinite}}
 @keyframes bob{{50%{{transform:translateY(-8px)}}}}
 .orbit{{transform-origin:{cx}px {cy}px;animation:spin 18s linear infinite}}
@@ -79,6 +82,7 @@ text{{font-family:-apple-system,Segoe UI,Helvetica,Arial,sans-serif;fill:#24292f
 .eye{{transform-box:fill-box;transform-origin:center;animation:blink 4.5s infinite}}
 @keyframes blink{{0%,94%,100%{{transform:scaleY(1)}}97%{{transform:scaleY(.1)}}}}
 </style>
+<rect width="760" height="320" rx="16" fill="#0a1c17"/>
 <g class="orbit">{orbs}</g>
 <g class="bob">{feet}{ant}<path d="{d}" fill="{base}"/>{eye_svg}<path d="M{cx-16} {cy+22} Q{cx} {cy+38} {cx+16} {cy+22}" fill="none" stroke="#1a1030" stroke-width="4" stroke-linecap="round"/></g>
 {txt}
