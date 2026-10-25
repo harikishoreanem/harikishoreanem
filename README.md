@@ -1,4 +1,4 @@
-<img src="header-v2.svg" alt="Harikishore Anem. AI engineer. Vision, voice, language." width="100%">
+<img src="header-v2.svg" alt="Harikishore Anem. AI engineer building real-time vision and voice systems." width="100%">
 
 <div align="center">
 
@@ -12,7 +12,7 @@ I’m a developer who builds AI systems that work in real time. At People Tech G
 
 <img src="voice.svg" alt="AI Voice Assistant pipeline" width="100%">
 
-Wake-word detection, speech to text, an LLM (TinyLLaMA) and Sarvam AI for multilingual replies, then text to speech. I built the full end-to-end pipeline and showed it at the India AI Impact Summit 2026. *Repo coming soon.*
+A multilingual voice assistant that I worked on at Medha Robotics, showcased at the India AI Impact Summit 2026 in Delhi. The code is private, so I walk through the architecture and my part in interviews.
 
 <img src="road-safety-v2.svg" alt="Smart Road Safety Monitor" width="100%">
 
@@ -20,20 +20,35 @@ YOLOv7 and YOLOv8 models that tell helmet from no helmet, running on live ESP32-
 
 <img src="sec-work.svg" alt="How I work" width="100%">
 
-| I make machines see | I make machines listen | I make it all run |
+| Area | Strong | Working knowledge |
 |---|---|---|
-| YOLO · OpenCV · object detection · image classification · real-time inference | STT · TTS · LLM APIs · multilingual voice · RAG, agents, LangGraph (learning) | Python · PyTorch · TensorFlow · SQL · Pandas · Git · REST APIs · AWS (basic) |
+| Programming and data | Python, SQL, NumPy, Pandas | – |
+| ML and deep learning | PyTorch, TensorFlow, CNNs | – |
+| Computer vision | OpenCV, YOLO, object detection | – |
+| Speech | Speech to text, text to speech | – |
+| Generative AI | – | LLM APIs, RAG, vector databases, agents, LangGraph, MCP |
+| Engineering | Git and GitHub | REST APIs, CI/CD, AWS |
 
-<img src="sec-path.svg" alt="My path so far" width="100%">
+<img src="sec-exp.svg" alt="Experience and education" width="100%">
+
+**Junior Software Developer, Medha Robotics** · Nov 2025 to Sep 2026 · Hyderabad
+Worked on a multilingual AI voice assistant and represented the team at the India AI Impact Summit 2026 in Delhi. Explored robotics simulation with NVIDIA Isaac Sim and tested workflows with the GR00T N1.5 model.
+
+**Junior Software Developer, People Tech Group** · May 2025 to Oct 2025 · Hyderabad
+Trained and tuned YOLO models for a bike safety system designed to stop the bike from starting when the rider is not wearing a helmet. My part was the model: collecting and annotating data, preprocessing, training and evaluation, using Python, OpenCV, NumPy and Pandas.
+
+**B.Tech in Computer Science and Engineering**, Avanthi Institute of Engineering and Technology, Makavarapalem · 2020 to 2024 · CGPA 8.22
+
+<img src="sec-path-v2.svg" alt="My path so far" width="100%">
 
 ```mermaid
 %%{init: {'theme':'base','themeVariables':{'primaryColor':'#10271f','primaryTextColor':'#f3e3b8','lineColor':'#c9a96e','cScale0':'#14352b','cScale1':'#1b4a3a','cScale2':'#14352b','cScale3':'#1b4a3a','cScale4':'#14352b','cScaleLabel0':'#f3e3b8','cScaleLabel1':'#f3e3b8','cScaleLabel2':'#f3e3b8','cScaleLabel3':'#f3e3b8','cScaleLabel4':'#f3e3b8'}}}%%
 timeline
     title From student to AI engineer
-    2020 : Started B.Tech
-    2024 : Graduated with CGPA 8.22
+    2020 : Started B.Tech in CSE
+    2024 : Graduated with CGPA 8.22 : Joined a training institute to build job-ready skills
     2025 : Computer vision at People Tech Group : Voice AI at Medha Robotics
-    2026 : Showed my voice assistant at India AI Impact Summit, Delhi
+    2026 : Represented my team at the India AI Impact Summit, Delhi
     Now : Learning RAG, agents and LangGraph : Looking for my next AI role
 ```
 
@@ -42,16 +57,14 @@ timeline
 
 | | |
 |---|---|
-| **Role I want** | AI Engineer, Machine Learning Engineer |
-| **Education** | B.Tech, Avanthi Institute of Engineering and Technology, CGPA 8.22 |
-| **Experience** | Junior Software Developer, Medha Robotics (11/2025 to 09/2026) · Junior Software Developer, People Tech Group (05/2025 to 10/2025) |
+| **Roles I want** | AI Engineer, Machine Learning Engineer |
+| **Currently learning** | RAG, agentic AI, LangGraph |
 | **Also explored** | NVIDIA Isaac Sim and the GR00T N1.5 model for robotics simulation |
-| **Still learning** | RAG, agentic AI, LangGraph, vector databases, MCP |
-| **Limitations** | Cannot walk past a noisy dataset without cleaning it |
+| **Location** | Hyderabad, open to relocation |
 
 </details>
 
-<img src="sec-grows.svg" alt="This profile grows" width="100%">
+<img src="sec-grows-v2.svg" alt="This profile grows" width="100%">
 
 <div align="center">
 <img src="creature.svg" alt="A creature generated from my GitHub activity" width="760">
