@@ -10,7 +10,7 @@ I build AI that **sees** and **listens**. At People Tech Group I trained real-ti
 
 Right now I’m looking for my next AI / ML role.
 
-## What I build
+<img src="sec-build.svg" alt="What I build" width="100%">
 
 <img src="voice.svg" alt="AI Voice Assistant pipeline" width="100%">
 
@@ -20,15 +20,16 @@ Wake-word detection, speech to text, an LLM (TinyLLaMA) and Sarvam AI for multil
 
 YOLO models that spot helmets and distracted drivers, running on live ESP32-CAM video through OpenCV. I collected and annotated the data, trained the models, and tuned the pipeline for real-time use. *Repo coming soon.*
 
-## How I work
+<img src="sec-work.svg" alt="How I work" width="100%">
 
-| 👁️ I make machines see | 🎧 I make machines listen | 🛠️ I make it all run |
+| I make machines see | I make machines listen | I make it all run |
 |---|---|---|
 | YOLO · OpenCV · object detection · image classification · real-time inference | STT · TTS · LLM APIs · multilingual voice · RAG, agents, LangGraph (learning) | Python · PyTorch · TensorFlow · SQL · Pandas · Git · REST APIs · AWS (basic) |
 
-## My path so far
+<img src="sec-path.svg" alt="My path so far" width="100%">
 
 ```mermaid
+%%{init: {'theme':'base','themeVariables':{'primaryColor':'#10271f','primaryTextColor':'#f3e3b8','lineColor':'#c9a96e','cScale0':'#14352b','cScale1':'#1b4a3a','cScale2':'#14352b','cScale3':'#1b4a3a','cScale4':'#14352b','cScaleLabel0':'#f3e3b8','cScaleLabel1':'#f3e3b8','cScaleLabel2':'#f3e3b8','cScaleLabel3':'#f3e3b8','cScaleLabel4':'#f3e3b8'}}}%%
 timeline
     title From student to AI engineer
     2020 : Started B.Tech
@@ -52,7 +53,7 @@ timeline
 
 </details>
 
-## This profile grows
+<img src="sec-grows.svg" alt="This profile grows" width="100%">
 
 <div align="center">
 <img src="creature.svg" alt="A creature generated from my GitHub activity" width="760">
